@@ -19,10 +19,10 @@
             else
             {
                 Console.BackgroundColor = ConsoleColor.Red;
-                Console.WriteLine("ERROR: Nimi sisestamata!");
-                for (byte i=0; i < 3; i++)
+                for (byte i=1; i < 5; i++)
                 {
                     Console.Beep();
+                    Console.WriteLine("\"ERROR: Nimi sisestamata! " + i);
                     Thread.Sleep(1000);
                 }
             }
