@@ -31,8 +31,7 @@
                         }
                     }
                 }
-                
-                if (state == 1)
+                else if (state == 1)
                 {
                     Console.Clear();
                     Console.WriteLine("Mis mudel? Me pakume Kodiaqi ja Octaviat");
