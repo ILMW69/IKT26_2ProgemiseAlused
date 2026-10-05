@@ -8,7 +8,21 @@
 
             byte height = byte.Parse(Console.ReadLine());
 
-            Console.WriteLine("Sinu pikkus on " + height);
+            if (height >= 40 && height <= 80)
+            {
+                Console.WriteLine("Sinu pikkus on " + height);
+            }
+            else if (height >= 81 && height <= 130)
+            {
+                Console.WriteLine($"Sinu pikkus on {height}cm");
+            }
+            else if (height >= 131 && height <= 170)
+            {
+                Console.WriteLine($"Sinu pikkus on {height}cm");
+            }
+            else if (height >= 171)
+            {
+                Console.WriteLine($"Sinu pikkus on {height}cm");
             }
         }
     }
